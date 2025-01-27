@@ -1,0 +1,94 @@
+#root {
+  width: 100%;
+  margin: 0 10%;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  place-items: start;
+}
+
+.button {
+  width: 7rem;
+  background-color: green;
+  color: black;
+  padding: 1rem 1rem;
+  font-size: 14px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 2rem;
+}
+
+/* Header area */
+
+.logo {
+  padding: 1.5rem;
+}
+
+.header {
+  display: grid;
+  grid-auto-flow: column;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.block {
+  width: 100px;
+  display: flex;
+}
+
+.justify-right {
+  justify-self: end;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* Conent area */
+
+.banner-image {
+  margin: 3rem;
+}
+
+.banner-text {
+  margin: 1rem;
+}
+
+.border {
+  border: thin solid;
+}
+
+.product-list {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 100% 100% 100%;
+  gap: 10rem;
+  margin-top: 1rem;
+  width: 20%;
+  align-items: center;
+}
+
+.product {
+  width: 100%;
+  text-align: justify;
+}
+
+/* Footer area */
+
+.footer {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 100% 100% 100%;
+  align-items:flex-start;
+  margin: 1rem;
+}
