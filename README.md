@@ -1,4 +1,4 @@
-# voyage-project-tier3-menu-scheduler
+# voyage-project-prompt-gen
 
 ## Table of Contents
 
@@ -12,11 +12,17 @@
 
 Welcome, Chingus!
 
-This project focuses on developing a menu scheduling application that allows managers to create and share weekly menus for staff workers. The application ensures employees have clear visibility of the planned meals while addressing specific dietary restrictions and allergies.
+It seems impossible to not be flooded by articles and stories about Artifical
+Intellegence in our newsfeeds. This technology has come a long way in just two 
+short years and it is by no means perfected. 
+
+But, it's time to explore this relatively new technology to see how we might
+use it in the applications we create. So, let's get started!
 
 ![Weekly Menu Scheduler](./assets/meal_planner.jpg)
 
-In this voyage, your team will design and build an intuitive web application to simplify menu planning and ensure inclusivity for all employees, leveraging dishes API.
+In this voyage, your team will design and build a web application that lets
+its users become more effective and building AI prompts. This applicaion, will follow a structured metodology to help the user build good prompts. To test them the app will use [Google Gemini's API](https://ai.google.dev/api?lang=node) to run the prompt and display the result from Gemini.
 
 ## General Instructions
 
@@ -31,7 +37,12 @@ it reaches MVP, start implementing the optional features or get creative and
 extend it in ways we haven't envisioned. In other words, use the power of
 teamwork to make it distinctive and unique.
 
-Remember, UI/UX creativity is yours to explore—design an interface that stands out while ensuring ease of use.
+Remember, UI/UX creativity is yours to explore—design an interface that stands
+ out while ensuring ease of use.
+
+Also, there is no need for Voyage teams to purchase any subscriptions or software 
+in order to create or run your app. Gemini's free tier is sufficent and there
+many [web hosting services](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/appdeployment.md) with free tiers you can use to deploy your app.
 
 ## Requirements & Specifications
 
