@@ -4,7 +4,7 @@
 
 * [Overview](#overview)
 * [General Instructions](#general-instructions)
-* [Requirements & Specifications](#requirements-specifications)
+* [Requirements & Specifications](#requirements-and-specifications)
 * [Acknowledgements](#acknowledgements)
 * [About Chingu](#about-chingu)
 
@@ -13,8 +13,8 @@
 Welcome, Chingus!
 
 It seems impossible to not be flooded by articles and stories about Artifical
-Intellegence in our newsfeeds. This technology has come a long way in just two 
-short years and it is by no means perfected. 
+Intellegence in our newsfeeds. This technology has come a long way in just two
+short years and it is by no means perfected.
 
 But, it's time to explore this relatively new technology to see how we might
 use it in the applications we create. So, let's get started!
@@ -22,7 +22,10 @@ use it in the applications we create. So, let's get started!
 ![Weekly Menu Scheduler](./assets/meal_planner.jpg)
 
 In this voyage, your team will design and build a web application that lets
-its users become more effective and building AI prompts. This applicaion, will follow a structured metodology to help the user build good prompts. To test them the app will use [Google Gemini's API](https://ai.google.dev/api?lang=node) to run the prompt and display the result from Gemini.
+its users become more effective and building AI prompts. This applicaion,
+will follow a structured metodology to help the user build good prompts. To
+test them the app will use [Google Gemini's API](https://ai.google.dev/api?lang=node)
+to run the prompt and display the result from Gemini.
 
 ## General Instructions
 
@@ -40,11 +43,11 @@ teamwork to make it distinctive and unique.
 Remember, UI/UX creativity is yours to explore—design an interface that stands
  out while ensuring ease of use.
 
-Also, there is no need for Voyage teams to purchase any subscriptions or software 
+Also, there is no need for Voyage teams to purchase any subscriptions or software
 in order to create or run your app. Gemini's free tier is sufficent and there
 many [web hosting services](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/appdeployment.md) with free tiers you can use to deploy your app.
 
-## Requirements & Specifications
+## Requirements and Specifications
 
 ### What You Need to Do
 
@@ -53,110 +56,109 @@ implement to enhance this app, if time permits.
 
 #### Structure
 
-- [ ] This is a full-stack application. Frontend and backend are required.
-- [ ] You may use any languages, tools, or libraries you prefer when designing and building this app.
-- [ ] You may **_NOT_** use AI-based solution generators like GitHub Copilot.
-- [ ] Useful links and resources:
-  - [Print React Component](https://www.npmjs.com/package/react-to-print)
-  - [Dishes API](https://menus-api.vercel.app/dishes)
-  - [EmailJS](https://www.emailjs.com/docs)
-  - [Github Authentication](https://www.npmjs.com/package/oauth-client-github)
-  - [Google Authentication](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid) A detailed guide on how to obtain an API key and perform Google Authentication.
+* [ ] This is a full-stack application. Frontend and backend are required.
+* [ ] You may use any languages, tools, or libraries you prefer when designing and building this app.
+* [ ] You may **_NOT_** use AI-based solution generators like GitHub Copilot.
+* [ ] Useful links and resources:
+  * [Print React Component](https://www.npmjs.com/package/react-to-print)
+  * [Dishes API](https://menus-api.vercel.app/dishes)
+  * [EmailJS](https://www.emailjs.com/docs)
+  * [Github Authentication](https://www.npmjs.com/package/oauth-client-github)
+  * [Google Authentication](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid) A detailed guide on how to obtain an API key and perform Google Authentication.
 
 #### Styling
 
-- [ ] Surprise us!!! Use your team's creativity to make this app distinctive.
-- [ ] Add a footer containing a link to your team's GitHub repo.
-- [ ] In general, you will find these [UI design principles](https://www.justinmind.com/ui-design/principles) helpful.
-- [ ] Recommend using this resource for [clean CSS](https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology).
+* [ ] Surprise us!!! Use your team's creativity to make this app distinctive.
+* [ ] Add a footer containing a link to your team's GitHub repo.
+* [ ] In general, you will find these [UI design principles](https://www.justinmind.com/ui-design/principles) helpful.
+* [ ] Recommend using this resource for [clean CSS](https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology).
 
 #### Functionality
-- Application Overview
 
-  - [ ] Develop a fullstack (frontend & backend) application to facilitate weekly menu scheduling.
-  - [ ] Ensure the application is user-friendly, accessible, and visually appealing.
+* Application Overview
 
-- Authentication
-  - [ ] Implement a register & login feature.
-  - [ ] Authenticate users via Google or GitHub OAuth securely. (links are available in the resources section)
+  * [ ] Develop a fullstack (frontend & backend) application to facilitate weekly menu scheduling.
+  * [ ] Ensure the application is user-friendly, accessible, and visually appealing.
 
-- Allergy Input and Management
+* Authentication
+  * [ ] Implement a register & login feature.
+  * [ ] Authenticate users via Google or GitHub OAuth securely. (links are available in the resources section)
 
-  - [ ] Enable managers to input workers' allergies directly within the app using a user-friendly form or interface.
-  - [ ] Allow multiple allergy inputs, with the option to save and manage them for future menu planning.
-  - [ ] Automatically filter out dishes containing allergens based on workers' allergy data items.
+* Allergy Input and Management
 
-  - [ ] Enable managers to edit and delete an allergy
+  * [ ] Enable managers to input workers' allergies directly within the app using a user-friendly form or interface.
+  * [ ] Allow multiple allergy inputs, with the option to save and manage them for future menu planning.
+  * [ ] Automatically filter out dishes containing allergens based on workers' allergy data items.
+  * [ ] Enable managers to edit and delete an allergy
   
-- Week Scheduling
+* Week Scheduling
 
-  - [ ] Provide managers with the ability to schedule menus for a specific week using:
-    - Date Picker: A calendar interface for seamless week selection.
-    - Default Option: Automatically pre-select the upcoming week for scheduling.
-    - Manual Input: Allow managers to specify the start and end dates of the week.
+  * [ ] Provide managers with the ability to schedule menus for a specific week using:
+    * Date Picker: A calendar interface for seamless week selection.
+    * Default Option: Automatically pre-select the upcoming week for scheduling.
+    * Manual Input: Allow managers to specify the start and end dates of the week.
 
-  - [ ] Define the weekly menu structure as a 7-day period starting on Monday and ending on Sunday.
+  * [ ] Define the weekly menu structure as a 7-day period starting on Monday and ending on Sunday.
 
-- Dish Management
+* Dish Management
 
-  - [ ] Dish Assignment
+  * [ ] Dish Assignment
 
-    - Enable managers to assign dishes for each day of the week
+    * Enable managers to assign dishes for each day of the week
 
-      - [ ] Automatically generate a menu with one unique dish for each day using [dishes API](https://menus-api.vercel.app/dishes).
-      - [ ] Write a logic to randomly select and assign unique dish for each day of the week.
-      - [ ] Implement a regenerate weekly menu feature.
+      * [ ] Automatically generate a menu with one unique dish for each day using [dishes API](https://menus-api.vercel.app/dishes).
+      * [ ] Write a logic to randomly select and assign unique dish for each day of the week.
+      * [ ] Implement a regenerate weekly menu feature.
 
-    - "Day Off" Feature
+    * "Day Off" Feature
 
-      - [ ] Enable marking specific weekdays as "Day Off", where no dish is assigned.
+      * [ ] Enable marking specific weekdays as "Day Off", where no dish is assigned.
   
-  - [ ] Data Requirements
+  * [ ] Data Requirements
 
-    - Source dishes from the [dishes API](https://menus-api.vercel.app/dishes) containing the following details:
+    * Source dishes from the [dishes API](https://menus-api.vercel.app/dishes) containing the following details:
 
-      - Dish Name: Unique identifier for each dish.
-      - Ingredients: List of ingredients used.
-      - Calories: Nutritional value of the dish.
+      * Dish Name: Unique identifier for each dish.
+      * Ingredients: List of ingredients used.
+      * Calories: Nutritional value of the dish.
 
-  - [ ] Allergen Restrictions
+  * [ ] Allergen Restrictions
 
-    - Cross-reference the stored workers' allergies data to prevent scheduling dishes containing allergens.
+    * Cross-reference the stored workers' allergies data to prevent scheduling dishes containing allergens.
 
-- Validation and Error Handling
+* Validation and Error Handling
 
-  - [ ] Ensure menus are created only for the current week or future weeks
-  - [ ] Display an error message for invalid inputs (e.g., selecting past weeks or overlapping scheduling entries).
-  - [ ] Prohibit duplicate dish assignments for the same week
-  - [ ] Provide clear error messages when duplicates are detected.
+  * [ ] Ensure menus are created only for the current week or future weeks
+  * [ ] Display an error message for invalid inputs (e.g., selecting past weeks or overlapping scheduling entries).
+  * [ ] Prohibit duplicate dish assignments for the same week
+  * [ ] Provide clear error messages when duplicates are detected.
 
-- User Interface and Experience (UI/UX)
+* User Interface and Experience (UI/UX)
 
-  - [ ] Present the finalized weekly menu in an intuitive and readable format, such as (table view, calendar-like grid) suprise us :).
-  - [ ] Ensure the application is fully responsive and adapts to various devices and screen sizes.
+  * [ ] Present the finalized weekly menu in an intuitive and readable format, such as (table view, calendar-like grid) suprise us :).
+  * [ ] Ensure the application is fully responsive and adapts to various devices and screen sizes.
 
-- Data Export
+* Data Export
 
-  - [ ] Add functionality for managers to download or export the finalized weekly menu as a PDF or Excel file.
-        
+  * [ ] Add functionality for managers to download or export the finalized weekly menu as a PDF or Excel file.
+
 ### Extras (Not Required)
 
-  - [ ] Implement a mail SMTP to notify workers by email the menu scheduled for the week.
+* [ ] Implement a mail SMTP to notify workers by email the menu scheduled for the week.
 
-  - [ ] Use a mailer mocking tool like [EmailJS](https://www.emailjs.com/docs) to simulate sending the email.
+* [ ] Use a mailer mocking tool like [EmailJS](https://www.emailjs.com/docs) to simulate sending the email.
 
 ## Acceptance Criteria
 
-  - [ ] Users can create workers' allergies
+* [ ] Users can create workers' allergies
 
-  - [ ] Users can successfully create a valid weekly menu with:
-    - Unique dishes.
-    - Exclusion of allergenic options.
-    - Specified days off.
-        
-  - [ ] The UI provides clear feedback for invalid inputs (e.g., duplicate dishes, allergen violations).
-  - [ ] The weekly menu is displayed in a clean, accessible format.
+* [ ] Users can successfully create a valid weekly menu with:
+  * Unique dishes.
+  * Exclusion of allergenic options.
+  * Specified days off.
 
+* [ ] The UI provides clear feedback for invalid inputs (e.g., duplicate dishes, allergen violations).
+* [ ] The weekly menu is displayed in a clean, accessible format.
 
 ## Acknowledgements
 
