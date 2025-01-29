@@ -108,15 +108,9 @@ your app once you complete these basic requirements.
 
 #### Structure
 
-* [ ] This is a full-stack application. Frontend and backend are required.
+* [ ] This is a frontend application.
 * [ ] You may use any languages, tools, or libraries you prefer when designing and building this app.
 * [ ] You may **_NOT_** use AI-based solution generators like GitHub Copilot.
-* [ ] Useful links and resources:
-  * [Print React Component](https://www.npmjs.com/package/react-to-print)
-  * [Dishes API](https://menus-api.vercel.app/dishes)
-  * [EmailJS](https://www.emailjs.com/docs)
-  * [Github Authentication](https://www.npmjs.com/package/oauth-client-github)
-  * [Google Authentication](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid) A detailed guide on how to obtain an API key and perform Google Authentication.
 
 #### Styling
 
@@ -124,6 +118,9 @@ your app once you complete these basic requirements.
 * [ ] Add a footer containing a link to your team's GitHub repo.
 * [ ] In general, you will find these [UI design principles](https://www.justinmind.com/ui-design/principles) helpful.
 * [ ] Recommend using this resource for [clean CSS](https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology).
+* [ ] If your team doesn't include a dedicated UI/UX Designer you will [find
+these tips](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/uiux.md)
+helpful.
 
 #### Functionality
 
@@ -131,10 +128,6 @@ your app once you complete these basic requirements.
 
   * [ ] Develop a fullstack (frontend & backend) application to facilitate weekly menu scheduling.
   * [ ] Ensure the application is user-friendly, accessible, and visually appealing.
-
-* Authentication
-  * [ ] Implement a register & login feature.
-  * [ ] Authenticate users via Google or GitHub OAuth securely. (links are available in the resources section)
 
 * Allergy Input and Management
 
@@ -196,9 +189,16 @@ your app once you complete these basic requirements.
 
 ### Extras (Not Required)
 
-* [ ] Implement a mail SMTP to notify workers by email the menu scheduled for the week.
+* [ ] Implement full-stack application that makes the calls to the Gemini API
+via a BE route. Frontend and backend are required.
 
-* [ ] Use a mailer mocking tool like [EmailJS](https://www.emailjs.com/docs) to simulate sending the email.
+* [ ] Implement a register & login feature.
+* [ ] Authenticate users via Google or GitHub OAuth securely.
+  * [Github Authentication](https://www.npmjs.com/package/oauth-client-github)
+  * [Google Authentication](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid) A detailed guide on how to obtain an API key and perform Google Authentication.
+
+* [ ] Add functionality to print and/or email the results to the user. Check out
+[EmailJS](https://www.emailjs.com/docs) for how you might email them.
 
 ## Acceptance Criteria
 
@@ -214,7 +214,10 @@ your app once you complete these basic requirements.
 
 ## Acknowledgements
 
-We would like to express our profound gratitude to the global developer community, whose collaborative spirit and shared knowledge continually motivate and enrich our endeavors. Together, we achieve extraordinary milestones. Thank you.
+We would like to express our profound gratitude to the global developer
+community, whose collaborative spirit and shared knowledge continually
+motivate and enrich our endeavors. Together, we achieve extraordinary
+milestones. Thank you.
 
 ## About Chingu
 
