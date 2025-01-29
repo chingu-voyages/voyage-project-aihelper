@@ -27,6 +27,57 @@ will follow a structured metodology to help the user build good prompts. To
 test them the app will use [Google Gemini's API](https://ai.google.dev/api?lang=node)
 to run the prompt and display the result from Gemini.
 
+The structured methodology to follow for creating a prompt is called
+[_Pentagram_](https://tinyurl.com/24vge6j2) and it consists of these parts:
+
+* Persona
+  A _persona_ describes who the result will be tailored for. For example,
+  
+  ```text
+  You are a Product Owner, Scrum Master, UI/UX Designer, Web Developer, or
+  Data Scientist who is at the beginning of your career and is looking to apply
+  what you've learned to build practical experience to help you get noticed in
+  the job market.
+  ```
+
+* Context
+  This provides background information to help the AI tool generate a result
+  that best fits your needs. For example:
+
+  ```text
+  The information provided should assume that I am a Frontend Web Developer
+  who understands the technical aspects of what is needed to build websites.
+  But, I have not worked in team projects with individuals in different roles.
+  ```
+
+* Task
+  The _task_ defines what information you need. For example:
+
+  ```text
+  Provide a list of websites for organizations that provide programs and
+  services which will help me transform what I've learned into experience that
+  other job applicants will not have.
+  ```
+
+* Output
+  The _output_ defines how you want the AI tool to respond to your users. For
+  example:
+
+  ```text
+  The tone should be informal and the list of websites should include a link
+  to the site, it's name, and cost information.
+  ```
+
+* Constraint
+  Finally, _constraint_ provides more direction for any boundries you would
+  like the AI tool to honor in the results it generates. For example:
+
+  ```text
+  Avoid generating lots of text only a summary of the websites are needed. Also,
+  responses should be tailored to readers with a high school level of education.
+  Avoid overly technical responses.
+  ```
+
 ## General Instructions
 
 This project is designed to be worked on by a team rather than an individual
@@ -41,7 +92,7 @@ extend it in ways we haven't envisioned. In other words, use the power of
 teamwork to make it distinctive and unique.
 
 Remember, UI/UX creativity is yours to explore—design an interface that stands
- out while ensuring ease of use.
+out while ensuring ease of use.
 
 Also, there is no need for Voyage teams to purchase any subscriptions or software
 in order to create or run your app. Gemini's free tier is sufficent and there
@@ -51,8 +102,9 @@ many [web hosting services](https://github.com/chingu-voyages/Handbook/blob/main
 
 ### What You Need to Do
 
-The following define the minimum requirements and ideas for features you may
-implement to enhance this app, if time permits.
+The following define the minimum requirements and ideas for features you should
+implement. But, we've also included stretch goals you should use to enhance
+your app once you complete these basic requirements.
 
 #### Structure
 
