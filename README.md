@@ -1,4 +1,4 @@
-# voyage-project-prompt-gen
+# voyage-project-ai
 
 ## Table of Contents
 
@@ -165,6 +165,7 @@ Once you complete the basic application begin enhancing it with any of the follo
 stretch goals. Make sure that any of these you choose to implement match the capabilities of
 your tier.
 
+* [ ] Add acceptance criteria to your readme for any stretch goals you choose to implement.
 * [ ] Allow the user to display more information about how to use each field in the input form. 
 This should be implemented individually for each field.
 * [ ] Personalize the application by collecting the user's name and including it
