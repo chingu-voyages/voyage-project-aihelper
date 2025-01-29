@@ -19,8 +19,6 @@ short years and it is by no means perfected.
 But, it's time to explore this relatively new technology to see how we might
 use it in the applications we create. So, let's get started!
 
-![Weekly Menu Scheduler](./assets/meal_planner.jpg)
-
 In this voyage, your team will design and build a web application that lets
 its users become more effective and building AI prompts. This applicaion,
 will follow a structured metodology to help the user build good prompts. To
@@ -95,8 +93,8 @@ Remember, UI/UX creativity is yours to explore—design an interface that stands
 out while ensuring ease of use.
 
 Also, there is no need for Voyage teams to purchase any subscriptions or software
-in order to create or run your app. Gemini's free tier is sufficent and there
-many [web hosting services](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/appdeployment.md) with free tiers you can use to deploy your app.
+in order to create or run your app. The [Gemini Flash 1.5 free tier](https://ai.google.dev/pricing#1_5flash) is sufficent and theremany [web hosting services](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/appdeployment.md) with free 
+tiers you can use to deploy your app.
 
 ## Requirements and Specifications
 
@@ -116,11 +114,7 @@ your app once you complete these basic requirements.
 
 * [ ] Surprise us!!! Use your team's creativity to make this app distinctive.
 * [ ] Add a footer containing a link to your team's GitHub repo.
-* [ ] In general, you will find these [UI design principles](https://www.justinmind.com/ui-design/principles) helpful.
 * [ ] Recommend using this resource for [clean CSS](https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology).
-* [ ] If your team doesn't include a dedicated UI/UX Designer you will [find
-these tips](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/uiux.md)
-helpful.
 
 #### Functionality
 
@@ -128,89 +122,83 @@ helpful.
 
   * [ ] Develop a fullstack (frontend & backend) application to facilitate weekly menu scheduling.
   * [ ] Ensure the application is user-friendly, accessible, and visually appealing.
+  * This is a single page application whose landing page contains these components:
+    * [ ] A _header_ containing the name of the app and the current date
+    * [ ] A _footer_ that links to your GitHub repo and a list of who is on the team.
+    * [ ] A _Pentagram input form_ to allow the user to enter the various parts that make up the 
+    Pentagram structure.
+    * [ ] A _result_ area that will contain the results returned from Gemini.
 
-* Allergy Input and Management
+* Pentagram input form
 
-  * [ ] Enable managers to input workers' allergies directly within the app using a user-friendly form or interface.
-  * [ ] Allow multiple allergy inputs, with the option to save and manage them for future menu planning.
-  * [ ] Automatically filter out dishes containing allergens based on workers' allergy data items.
-  * [ ] Enable managers to edit and delete an allergy
+  * [ ] The form must include and input field cooresponding to each part of the 
+  Pentagram methodology.
+  * [ ] The user must enter data into all Pentagram fields.
+  * [ ] The user must be allowed to update any or Pentagram field between submissions. 
+  * [ ] Include a reset button for each Pentagram input field to allow it to be cleared
+  independently from other form fields.
+  * [ ] Include a button to submit the prompt through the Gemini API.
   
-* Week Scheduling
+* Result
 
-  * [ ] Provide managers with the ability to schedule menus for a specific week using:
-    * Date Picker: A calendar interface for seamless week selection.
-    * Default Option: Automatically pre-select the upcoming week for scheduling.
-    * Manual Input: Allow managers to specify the start and end dates of the week.
-
-  * [ ] Define the weekly menu structure as a 7-day period starting on Monday and ending on Sunday.
-
-* Dish Management
-
-  * [ ] Dish Assignment
-
-    * Enable managers to assign dishes for each day of the week
-
-      * [ ] Automatically generate a menu with one unique dish for each day using [dishes API](https://menus-api.vercel.app/dishes).
-      * [ ] Write a logic to randomly select and assign unique dish for each day of the week.
-      * [ ] Implement a regenerate weekly menu feature.
-
-    * "Day Off" Feature
-
-      * [ ] Enable marking specific weekdays as "Day Off", where no dish is assigned.
-  
-  * [ ] Data Requirements
-
-    * Source dishes from the [dishes API](https://menus-api.vercel.app/dishes) containing the following details:
-
-      * Dish Name: Unique identifier for each dish.
-      * Ingredients: List of ingredients used.
-      * Calories: Nutritional value of the dish.
-
-  * [ ] Allergen Restrictions
-
-    * Cross-reference the stored workers' allergies data to prevent scheduling dishes containing allergens.
+  * [ ] Format the output returned by Gemini so it is readable and displayed as left justified
+  paragraphs and lists. Note. Gemini will return these, but a `console.log` of the result text
+  will not necessarily be properly formatted. You will need to read the documentation and 
+  research the returned data to determine how to implement this feature.
 
 * Validation and Error Handling
 
-  * [ ] Ensure menus are created only for the current week or future weeks
-  * [ ] Display an error message for invalid inputs (e.g., selecting past weeks or overlapping scheduling entries).
-  * [ ] Prohibit duplicate dish assignments for the same week
-  * [ ] Provide clear error messages when duplicates are detected.
+  * [ ] Display an error message for invalid inputs (e.g. an empty Pentagram input field).
+  * [ ] The user must be informed aboout errors at the time they are detected.
+  * [ ] Provide clear error messages when they are corrected.
 
 * User Interface and Experience (UI/UX)
 
-  * [ ] Present the finalized weekly menu in an intuitive and readable format, such as (table view, calendar-like grid) suprise us :).
-  * [ ] Ensure the application is fully responsive and adapts to various devices and screen sizes.
+* [ ] In general, you will find these [UI design principles](https://www.justinmind.com/ui-design/principles) helpful.
+* [ ] If your team doesn't include a dedicated UI/UX Designer you will [find
+these tips](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/uiux.md)
+helpful.
 
-* Data Export
+### Stretch Goals (Not Required)
 
-  * [ ] Add functionality for managers to download or export the finalized weekly menu as a PDF or Excel file.
+Once you complete the basic application begin enhancing it with any of the following optional
+stretch goals. Make sure that any of these you choose to implement match the capabilities of
+your tier.
 
-### Extras (Not Required)
-
+* [ ] Allow the user to display more information about how to use each field in the input form. 
+This should be implemented individually for each field.
+* [ ] Personalize the application by collecting the user's name and including it
+in labels, alerts, and error message.
+* [ ] Add functionality export the prompt and result as a PDF or CSV file.
+* [ ] Add functionality to allow users to rate and save prompts and their results.
+* [ ] Add a dashboard to display metrics including, but not limited to, the following:
+  * Number of prompts created in the current session
+  * Number of errors detected in the current session
+  * Percentage of errors to successful executions in the current session
+  * Average and total number of characters for results in the current session
+  * Number of successful and unsuccessful calls to the Gemini API in the current session
+* [ ] Supplement the dashboard metrics with cooresponding graphs of your choice.
+* [ ] If you created a dashboard (see above) and have implmented a backend application component
+store all prompts and results in a database and include lifetime versions of the session metrics
+in it.
 * [ ] Implement full-stack application that makes the calls to the Gemini API
 via a BE route. Frontend and backend are required.
-
 * [ ] Implement a register & login feature.
 * [ ] Authenticate users via Google or GitHub OAuth securely.
   * [Github Authentication](https://www.npmjs.com/package/oauth-client-github)
   * [Google Authentication](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid) A detailed guide on how to obtain an API key and perform Google Authentication.
-
 * [ ] Add functionality to print and/or email the results to the user. Check out
 [EmailJS](https://www.emailjs.com/docs) for how you might email them.
 
 ## Acceptance Criteria
 
-* [ ] Users can create workers' allergies
-
-* [ ] Users can successfully create a valid weekly menu with:
-  * Unique dishes.
-  * Exclusion of allergenic options.
-  * Specified days off.
-
-* [ ] The UI provides clear feedback for invalid inputs (e.g., duplicate dishes, allergen violations).
-* [ ] The weekly menu is displayed in a clean, accessible format.
+* [ ] You should include a good readme in your project repo.
+* [ ] Users can enter data into the input form, submit it, and formatted results will be
+displayed.
+* [ ] Error messages are displayed at the time an error is detected. These should be clear and
+provide advice for how to correct the error
+* [ ] The UI provides clear feedback for invalid inputs.
+* [ ] The results returned from Gemini are displayed in a clear and readable fashion.
 
 ## Acknowledgements
 
@@ -221,6 +209,7 @@ milestones. Thank you.
 
 ## About Chingu
 
-If you aren't yet a member of Chingu we invite you to join us. We help our
-members transform what they've learned in courses & tutorials into the
-practical experience employers need and want.
+If you aren't yet a member of Chingu we invite you to [join us](https://chingu.io). 
+We help ourmembers transform what they've learned in courses & tutorials into the
+practical experience employers need and want. The experience that helps to set you
+apart from other applicants for the same jobs.
