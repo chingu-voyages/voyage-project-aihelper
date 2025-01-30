@@ -100,6 +100,9 @@ out while ensuring ease of use.
 Also, there is no need for Voyage teams to purchase any subscriptions or software
 in order to create or run your app. The [Gemini Flash 1.5 free tier](https://ai.google.dev/pricing#1_5flash) is sufficent and theremany [web hosting services](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/appdeployment.md) with free tiers you can use to deploy your app.
 
+We have added a sample React app to the `src` directory of this repo you can
+use to see how to call the Gemini API.
+
 ## Requirements and Specifications
 
 ### What You Need to Do
@@ -166,45 +169,61 @@ helpful.
 
 ### Stretch Goals (Not Required)
 
-Once you complete the basic application begin enhancing it with any of the following optional
-stretch goals. Make sure that any of these you choose to implement match the capabilities of
-your tier.
+Once you complete the basic application begin enhancing it with any of the
+following optional stretch goals. Make sure that any of these you choose to
+implement match the capabilities of your tier and the resources (e.g. time &
+knowledge) availble to your team.
 
-* [ ] Add acceptance criteria to your readme for any stretch goals you choose to implement.
-* [ ] Allow the user to display more information about how to use each field in the input form.
-This should be implemented individually for each field.
+* [ ] Allow the user to display more information about how to use each field
+in the input form. This should be implemented individually for each field.
+
 * [ ] Personalize the application by collecting the user's name and including it
 in labels, alerts, and error message.
+
 * [ ] Add functionality export the prompt and result as a PDF or CSV file.
+
 * [ ] Add functionality to allow users to rate and save prompts and their results.
-* [ ] Add a dashboard to display metrics including, but not limited to, the following:
+
+* [ ] Add a dashboard to display metrics including, but not limited to,
+the following:
   * Number of prompts created in the current session
   * Number of errors detected in the current session
   * Percentage of errors to successful executions in the current session
   * Average and total number of characters for results in the current session
-  * Number of successful and unsuccessful calls to the Gemini API in the current session
+  * Number of successful and unsuccessful calls to the Gemini API in the
+  current session
+
 * [ ] Supplement the dashboard metrics with cooresponding graphs of your choice.
-* [ ] If you created a dashboard (see above) and have implmented a backend application component
-store all prompts and results in a database and include lifetime versions of the session metrics
-in it.
+
+* [ ] If you created a dashboard (see above) and have implmented a backend
+application component store all prompts and results in a database and include
+lifetime versions of the session metrics.
+
 * [ ] Implement full-stack application that makes the calls to the Gemini API
 via a BE route. Frontend and backend are required.
+
 * [ ] Implement a register & login feature.
+
 * [ ] Authenticate users via Google or GitHub OAuth securely.
   * [Github Authentication](https://www.npmjs.com/package/oauth-client-github)
-  * [Google Authentication](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid) A detailed guide on how to obtain an API key and perform Google Authentication.
+  * [Google Authentication](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid)
+  A detailed guide on how to obtain an API key and perform Google Authentication.
+  
 * [ ] Add functionality to print and/or email the results to the user. Check out
 [EmailJS](https://www.emailjs.com/docs) for how you might email them.
 
 ## Acceptance Criteria
 
 * [ ] You should include a good readme in your project repo.
-* [ ] Users can enter data into the input form, submit it, and formatted results will be
-displayed.
-* [ ] Error messages are displayed at the time an error is detected. These should be clear and
-provide advice for how to correct the error
+* [ ] Add acceptance criteria to your readme for any stretch goals you choose
+to implement.
+* [ ] Users can enter data into the input form, submit it, and formatted
+results will be displayed.
+* [ ] Error messages are displayed at the time an error is detected. These
+should be clear and provide advice for how to correct the error
 * [ ] The UI provides clear feedback for invalid inputs.
-* [ ] The results returned from Gemini are displayed in a clear and readable fashion.
+* [ ] The results returned from Gemini are displayed in a clear and readable
+fashion.
 
 ## Acknowledgements
 
