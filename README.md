@@ -20,9 +20,10 @@ But, it's time to explore this relatively new technology to see how we might
 use it in the applications we create. So, let's get started!
 
 In this voyage, your team will design and build a web application that lets
-its users become more effective and building [AI prompts](https://www.techtarget.com/searchenterpriseai/definition/AI-prompt). 
+its users become more effective and building [AI prompts](https://www.techtarget.com/searchenterpriseai/definition/AI-prompt).
+
 This application, will follow a structured methodology to help the user build
-good prompts and along the way learn to improve on them. 
+good prompts and along the way learn to improve on them.
 
 To test them the app will use [Google Gemini's API](https://ai.google.dev/api?lang=node)
 to run the prompt and display the result from Gemini.
@@ -132,12 +133,14 @@ your app once you complete these basic requirements.
   * [ ] Develop an application to that helps users become more effective at building
   meaningful AI prompts.
   * [ ] Ensure the application is user-friendly, accessible, and visually appealing.
-  * This is a single page application whose landing page contains these components:
+  * The landing page contains these components:
     * [ ] A _header_ containing the name of the app and the current date
     * [ ] A _footer_ that links to your GitHub repo and a list of who is on the team.
     * [ ] A _Pentagram input form_ to allow the user to enter the various parts that make up the
     Pentagram structure.
     * [ ] A _result_ area that will contain the results returned from Gemini.
+
+    ![Page Wireframe](./assets/Page_Wireframe.png)
 
 * Pentagram input form
 
