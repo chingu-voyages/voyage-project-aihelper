@@ -29,6 +29,7 @@ The structured methodology to follow for creating a prompt is called
 [_Pentagram_](https://tinyurl.com/24vge6j2) and it consists of these parts:
 
 * Persona
+
   A _persona_ describes who the result will be tailored for. For example,
   
   ```text
@@ -39,6 +40,7 @@ The structured methodology to follow for creating a prompt is called
   ```
 
 * Context
+
   This provides background information to help the AI tool generate a result
   that best fits your needs. For example:
 
@@ -49,6 +51,7 @@ The structured methodology to follow for creating a prompt is called
   ```
 
 * Task
+
   The _task_ defines what information you need. For example:
 
   ```text
@@ -58,6 +61,7 @@ The structured methodology to follow for creating a prompt is called
   ```
 
 * Output
+
   The _output_ defines how you want the AI tool to respond to your users. For
   example:
 
@@ -67,6 +71,7 @@ The structured methodology to follow for creating a prompt is called
   ```
 
 * Constraint
+
   Finally, _constraint_ provides more direction for any boundries you would
   like the AI tool to honor in the results it generates. For example:
 
@@ -120,7 +125,8 @@ your app once you complete these basic requirements.
 
 * Application Overview
 
-  * [ ] Develop a fullstack (frontend & backend) application to facilitate weekly menu scheduling.
+  * [ ] Develop an application to that helps users become more effective at building 
+  meaningful AI prompts.
   * [ ] Ensure the application is user-friendly, accessible, and visually appealing.
   * This is a single page application whose landing page contains these components:
     * [ ] A _header_ containing the name of the app and the current date
