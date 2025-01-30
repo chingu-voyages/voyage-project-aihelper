@@ -98,8 +98,7 @@ Remember, UI/UX creativity is yours to explore—design an interface that stands
 out while ensuring ease of use.
 
 Also, there is no need for Voyage teams to purchase any subscriptions or software
-in order to create or run your app. The [Gemini Flash 1.5 free tier](https://ai.google.dev/pricing#1_5flash) is sufficent and theremany [web hosting services](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/appdeployment.md) with free 
-tiers you can use to deploy your app.
+in order to create or run your app. The [Gemini Flash 1.5 free tier](https://ai.google.dev/pricing#1_5flash) is sufficent and theremany [web hosting services](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/appdeployment.md) with free tiers you can use to deploy your app.
 
 ## Requirements and Specifications
 
@@ -125,22 +124,22 @@ your app once you complete these basic requirements.
 
 * Application Overview
 
-  * [ ] Develop an application to that helps users become more effective at building 
+  * [ ] Develop an application to that helps users become more effective at building
   meaningful AI prompts.
   * [ ] Ensure the application is user-friendly, accessible, and visually appealing.
   * This is a single page application whose landing page contains these components:
     * [ ] A _header_ containing the name of the app and the current date
     * [ ] A _footer_ that links to your GitHub repo and a list of who is on the team.
-    * [ ] A _Pentagram input form_ to allow the user to enter the various parts that make up the 
+    * [ ] A _Pentagram input form_ to allow the user to enter the various parts that make up the
     Pentagram structure.
     * [ ] A _result_ area that will contain the results returned from Gemini.
 
 * Pentagram input form
 
-  * [ ] The form must include and input field cooresponding to each part of the 
+  * [ ] The form must include and input field cooresponding to each part of the
   Pentagram methodology.
   * [ ] The user must enter data into all Pentagram fields.
-  * [ ] The user must be allowed to update any or Pentagram field between submissions. 
+  * [ ] The user must be allowed to update any or Pentagram field between submissions.
   * [ ] Include a reset button for each Pentagram input field to allow it to be cleared
   independently from other form fields.
   * [ ] Include a button to submit the prompt through the Gemini API.
@@ -149,7 +148,7 @@ your app once you complete these basic requirements.
 
   * [ ] Format the output returned by Gemini so it is readable and displayed as left justified
   paragraphs and lists. Note. Gemini will return these, but a `console.log` of the result text
-  will not necessarily be properly formatted. You will need to read the documentation and 
+  will not necessarily be properly formatted. You will need to read the documentation and
   research the returned data to determine how to implement this feature.
 
 * Validation and Error Handling
@@ -172,7 +171,7 @@ stretch goals. Make sure that any of these you choose to implement match the cap
 your tier.
 
 * [ ] Add acceptance criteria to your readme for any stretch goals you choose to implement.
-* [ ] Allow the user to display more information about how to use each field in the input form. 
+* [ ] Allow the user to display more information about how to use each field in the input form.
 This should be implemented individually for each field.
 * [ ] Personalize the application by collecting the user's name and including it
 in labels, alerts, and error message.
@@ -216,7 +215,7 @@ milestones. Thank you.
 
 ## About Chingu
 
-If you aren't yet a member of Chingu we invite you to [join us](https://chingu.io). 
+If you aren't yet a member of Chingu we invite you to [join us](https://chingu.io).
 We help ourmembers transform what they've learned in courses & tutorials into the
 practical experience employers need and want. The experience that helps to set you
 apart from other applicants for the same jobs.
