@@ -208,9 +208,12 @@ via a BE route. Frontend and backend are required.
   * [Github Authentication](https://www.npmjs.com/package/oauth-client-github)
   * [Google Authentication](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid)
   A detailed guide on how to obtain an API key and perform Google Authentication.
-  
+
 * [ ] Add functionality to print and/or email the results to the user. Check out
 [EmailJS](https://www.emailjs.com/docs) for how you might email them.
+
+* [ ] Surprise us with any features you would like to add to this app! Brainstorm
+with your teammates to see what you can come up with.
 
 ## Acceptance Criteria
 
