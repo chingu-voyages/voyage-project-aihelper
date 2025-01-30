@@ -142,6 +142,10 @@ your app once you complete these basic requirements.
 
     ![Page Wireframe](./assets/Page_Wireframe.png)
 
+    But, this wireframe doesn't provide many specifics. That is right! Your
+    task is to design your app from the detailed specifications we provide and
+    apply your own styling.
+
 * Pentagram input form
 
   * [ ] The form must include and input field cooresponding to each part of the
