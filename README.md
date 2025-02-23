@@ -75,7 +75,7 @@ The structured methodology to follow for creating a prompt is called
 
 * Constraint
 
-  Finally, _constraint_ provides more direction for any boundries you would
+  Finally, _constraint_ provides more direction for any boundaries you would
   like the AI tool to honor in the results it generates. For example:
 
   ```text
@@ -130,7 +130,7 @@ your app once you complete these basic requirements.
 
 * Application Overview
 
-  * [ ] Develop an application to that helps users become more effective at building
+  * [ ] Develop an application that helps users become more effective at building
   meaningful AI prompts.
   * [ ] Ensure the application is user-friendly, accessible, and visually appealing.
   * The landing page contains these components:
@@ -166,7 +166,7 @@ your app once you complete these basic requirements.
 * Validation and Error Handling
 
   * [ ] Display an error message for invalid inputs (e.g. an empty Pentagram input field).
-  * [ ] The user must be informed aboout errors at the time they are detected.
+  * [ ] The user must be informed about errors at the time they are detected.
   * [ ] Provide clear error messages when they are corrected.
 
 * User Interface and Experience (UI/UX)
@@ -234,6 +234,7 @@ results will be displayed.
 * [ ] Error messages are displayed at the time an error is detected. These
 should be clear and provide advice for how to correct the error
 * [ ] The UI provides clear feedback for invalid inputs.
+* [ ] The UI should be responsive
 * [ ] The results returned from Gemini are displayed in a clear and readable
 fashion.
 
