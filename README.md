@@ -19,8 +19,8 @@ short years and it is by no means perfected.
 But, it's time to explore this relatively new technology to see how we might
 use it in the applications we create. So, let's get started!
 
-In this voyage, your team will design and build a web application that lets
-its users become more effective and building [AI prompts](https://www.techtarget.com/searchenterpriseai/definition/AI-prompt).
+In this voyage, your team will design and build a web application, AI Helper, which lets
+its users become more effective at building [AI prompts](https://www.techtarget.com/searchenterpriseai/definition/AI-prompt).
 
 This application, will follow a structured methodology to help the user build
 good prompts and along the way learn to improve on them.
